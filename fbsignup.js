@@ -33,7 +33,7 @@ async validtextbox(firstname,lastname){
 async validdropdown(){
     
     await this.day.selectOption("20");
-    await this.month.selectOption("Jun");
+    await this.month.selectOption("June");
     await this.year.selectOption("1997");
 
 }
